@@ -1,6 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import FormPage from './FormPage/FormPage';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <FormPage/>
+    </>
+  );
 }
   
